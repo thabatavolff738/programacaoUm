@@ -1,0 +1,13 @@
+package Lista2;
+
+public class Ex18 {
+
+	public static void main(String[] args) {
+		double media = 7.3;
+
+		String resultado = (media >= 7) ? "Aprovado" : "Reprovado";
+
+		System.out.println("Média: " + media);
+		System.out.println("Resultado: " + resultado);
+	}
+}
